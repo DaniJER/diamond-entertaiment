@@ -1,0 +1,17 @@
+import * as Prisma from './internal/prismaNamespaceBrowser.js';
+export { Prisma };
+export * as $Enums from './enums.js';
+export * from './enums.js';
+export type admin = Prisma.adminModel;
+export type aprendiz = Prisma.aprendizModel;
+export type carrito = Prisma.carritoModel;
+export type carrito_curso = Prisma.carrito_cursoModel;
+export type curso = Prisma.cursoModel;
+export type detalle_compra = Prisma.detalle_compraModel;
+export type examen_modulo = Prisma.examen_moduloModel;
+export type factura_compra = Prisma.factura_compraModel;
+export type modulo = Prisma.moduloModel;
+export type progreso_modulo = Prisma.progreso_moduloModel;
+export type resultado_examen = Prisma.resultado_examenModel;
+export type usuario = Prisma.usuarioModel;
+export type video = Prisma.videoModel;
